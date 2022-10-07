@@ -1,0 +1,18 @@
+/* this demo is introducing selectors and css layout styling
+
+selectors can be represented by
+a) html tags
+b) class names
+c) id namesd) contain psuedo classes
+
+selectors can be singular, group as multiple if they contain the same css
+
+uou can have multiple refrences to the same selector containing different rules
+multiple same selectors accumulate all rules
+
+*/
+body, h1, h2, h3, h4, p
+{
+    margin: 0;
+    padding:0;
+}
