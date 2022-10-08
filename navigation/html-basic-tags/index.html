@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <!--
+        <!-- 
             this is a comment, it is not html code or content
 
             title tag: this tag supplies the content for the browse tab
-            meta tag: several version and option on this tag
+            meta tag: serveral version and option on this tag
                     : charset - specifies the set of character to be used by the web page
                     : name= and content= - Name allow for a specific item, content is the content (text)
-
+        
             the tag elements in the head area are not displayed on the web page, they are not
-            consider part of the page content, they are used by the internet and browser to
+            consider part of the page content, they are used by the internet and browser to 
             manage the web page
         -->
         <title>Basic Html structure</title>
         <meta charset="utf-8">
-        <meta name="author" content="Renz Gensaya">
+        <meta name="author" content="Don Welch"> 
     </head>
     <body>
         <!--
             items in this area to indented for display (content) on the web page
+
             header tag h1 thru h6 : these are titles, importance is 1 (greatest) 6 (least)
+
             paragraph tag p: this tag indicates the content to be a paragraph
         -->
         <header>
@@ -89,6 +91,7 @@
             The anchor tag can take you to a different location whether it
                 be on a different website, different page in the current web site
                 or a different location on the current page
+
             parameters:
             href: points to the desired location
             target: indicates the browser page display option
@@ -102,27 +105,34 @@
         <!--an empty (void) tag 
             image tag does not have a closing tag
             the image tag has no content, however is does have parameters
+
             parameters
             src="relative web site location"
             alt="printable text if the image is not found at src"
             [title="tool tip text for the image"]
+
             Absolute Addressing is a complete fixed file path
                 drive:/folder/..../folder/filename.ext
+
             relative address begins at a specific point
             for web sites, it is the "top of the web site"
             reference to the desired filename is done by specifying
                 the appropriate folder path to the desired file
             NO DRIVE
+
             Movement with a relative address
             - if only the filename is given, the location is within the
                 same folder
             - movement down the file structure is by /foldername
             - movement up the file structure is by using .. for each
                 folder level to ascend
+
             same folder
              ="filename.ext"
+
             lower folder
              ="nextleveldownfoldername/nextleveldownfoldername/.../filename.ext"
+
             from one lower folder to another lower folder on a different branch
             .. for each level that needs to be ascended
              ="../../../nextleveldownfoldername/filename.ext"
