@@ -11,7 +11,7 @@ footer{
 
 /* use decendant selectors
 
-you use a drill down approach to isolating the thtml you wish to apply your rules
+you use a DRILL DOWN approach to isolating the thtml you wish to apply your rules
 
 example
    within the nav area, the url is to get the following rules
@@ -28,6 +28,9 @@ nav ul li{
 
 this is a element selector within another element that is NOT necessarily directly below
 the parent element selector 
+
+upper html element (parent)
+   within the Parent 
 
 */
 
@@ -55,6 +58,12 @@ color: white;
 
    /*
 Classes
+syntax for naming is .user-name(rules)
+you at NOT using element names
+user name must be meaningful
+classes can be attached to any element
+classes are idependent of an element
+on html page to use:   class="user-name {user-name}"
 
 types: User (targeted) class
    psuedo class, these are attach to elements
@@ -92,3 +101,11 @@ a:active used when you are  actually clicking the anchor tag link
     /* list-style-type: none; */
     padding: 10px;   
 }
+
+/* id selector
+
+similar to a class selector but is suppose to be used
+only once on a page where as a class maybe used 
+multiple times
+syntax #user-name{rules}
+on the html page:  id="user-name"
