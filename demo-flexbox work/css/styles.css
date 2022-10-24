@@ -53,44 +53,11 @@ calculations:
  930 / 2 = content
  465 = content
 
- 960 = (1m + 1b + 1p + content + rp + rb + rm)
- 960 = (10 + 0 + 0 + content + 0 + 0 + 10)
- 960 = 20 + content
- 960 - 20 = content
- 940 = content
-
- **************************************/
-
-/**************************************
-
-default display of elements on your pager is called "stacked"
-to get your element on the same line we use something called flexbox
-to involve flexbox use the rule:
-          display:flex
-flexbox attempts to place all elements within its "specified container area"
-on the same line
-
-flexbox will automatically adjust measurements to get all elements to appear
-on the same line
-
-problem: I dont want all elements on the same line
-         I dont want my measurements adjusted
-
-solution: use flex-wrap: wrap;
-this will place as many elements as possible on a single row
-without adjusting the mesaurements of your element, and
-any leftover elements will wrap to the following line
-until all elements have been displayed
-flex-wrap affects a flex display area, without the display: flex:
-  flex-wrap is meaningless.
-
  **************************************/
 
 main{
     background-color: lightgrey;
-   display: flex;
-   flex-wrap:wrap;
-   /**** padding: 10px 0; *******/ 
+    display: flex;
 }
 
 /********************************
@@ -98,10 +65,10 @@ since there is not actual content we will simulate
 the contetn with a fixed height value of 300px
 *****************/
 
-main div{
-    margin: 10px 0 10px 10px;
+main > div{
+    height: 200px;
     width: 465px;
-    height: 300px;
+    margin: 10px 0 10px 10px;
 }
 
 .red-paint{
@@ -112,15 +79,15 @@ main div{
     background-color: blue;
 }
 
-footer{
-    background-color: lightgrey;
-    display: flex;
-}
-
 .black-paint{
     background-color: black;
-    height: 60px;
     width: 940px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    height: 50px;
+    margin: 0px 10px 10px 10px;
+}
+
+footer{
+    background-color: lightgrey;
+    height: 60px;
+    display: flex;
 }
