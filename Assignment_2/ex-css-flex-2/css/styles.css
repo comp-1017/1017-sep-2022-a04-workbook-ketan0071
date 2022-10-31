@@ -21,3 +21,26 @@ h1 {
 
 /* YOUR STYLES */
 
+main{
+    background-color: lightgrey;
+    display: flex;
+}
+
+main > div{
+    height: 300px;
+    width: 300px;
+    margin: 30px 0px 30px 30px;
+}
+
+.red-paint{
+    background-color: red;
+}
+
+.blue-paint{
+    background-color: blue;
+}
+
+.yellow-paint{
+    background-color: yellow;
+	margin-right: 30px;
+}
