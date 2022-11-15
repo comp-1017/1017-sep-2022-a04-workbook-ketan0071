@@ -1,0 +1,106 @@
+.container {
+    margin: 0 auto;
+    width: 960px;
+    font-size: 100%;
+    line-height: 1.5;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+    body {
+      color: #313131;
+      font-family: Verdana, Geneva, sans-serif;
+      padding-top: 26px;
+      padding-bottom: 26px;
+      text-align: center;
+      background-color: #f3f3f3;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    h1,
+    h2 {
+      color: #606060;
+      text-align: center;
+      font-size: 24px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+
+    h3 {
+      font-family: Verdana, Geneva, sans-serif;
+      color: #606060;
+      font-size: 20px;
+      text-align: center;
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 270px;
+    }
+
+    .menu-link-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    ul li {
+      color: #606060;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 12px 50px;
+      margin-bottom: 26px;
+      border: 2px solid #708090;
+      background-color: #f8f8ff;
+    }
+
+    main section {
+      padding: 15px 20px 0;
+      background-color: #fff;
+      border: 2px solid #000;
+      margin-bottom: 26px;
+    }
+
+    .sec-heading {
+      color: #606060;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 15px 50px;
+      margin-bottom: 30px;
+      border: 2px solid #708090;
+      background-color: #f8f8ff;
+    }
+
+    .section-one-columns,
+    .section-two-columns,
+    .section-three-columns {
+      display: flex;
+      flex-wrap: wrap;
+     
+      font-weight: 600;
+    }
+
+    .section-column-wrap,
+    .section-three-wrap {
+      width: 28%;
+    }
+
+    .section-column-wrap,
+    .section-two-wrap,
+    .section-three-wrap {
+      padding: 0 15px 5px;
+      margin: 0 5px 26px;
+      border: 2px solid #708090;
+      background-color: #f8f8ff;
+    }
+
+    .section-two-wrap {
+      width: 45%;
+    }
