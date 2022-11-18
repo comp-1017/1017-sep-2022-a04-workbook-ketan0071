@@ -7,5 +7,70 @@ body {
 	width: 960px;
 	font-size: 100%;
 	line-height: 1.5;
+	text-align: center;
 }
 
+.page-header{
+background: url(../img/header-background.png) repeat-x;
+}
+
+.hidden{
+	display: none;
+}
+
+/* convert point to pixel
+   pt * 1.3333 = px
+   48 * 1.3333 = 64 px */
+
+ h2{
+	font-size: 64px;
+	color: #0b777b;
+   }
+
+   h3{
+	font-size: 48px;
+	color: #0b777b;
+   }
+   footer p{
+	color: #0b777b;
+   }
+
+   section p{
+	color: #7f8c8c;
+	font-size: 22px;
+   }
+
+   span{
+	font-size: 18.6px;
+	color: #378184;
+	font-weight: bolder;
+   }
+
+   strong{
+	font-weight: bold;
+	color: #094244;
+   }
+  
+   section footer img{
+	vertical-align: middle;
+   }
+
+   section{
+	margin-top: 70px;
+   }
+
+   section footer{
+	margin-top: 24px;
+   }
+
+   section footer span{
+	margin: 0px 20px;
+   }
+
+   footer img{
+	margin: 0px 5px;
+   }
+
+   .footer-margin{
+	margin: 100px 0px;
+   }
