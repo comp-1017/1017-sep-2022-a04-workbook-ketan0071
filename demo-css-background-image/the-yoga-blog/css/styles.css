@@ -71,6 +71,8 @@ background: url(../img/header-background.png) repeat-x;
 	margin: 0px 5px;
    }
 
-   .footer-margin{
-	margin: 100px 0px;
+   main > footer{
+      margin: 70px 0px 24px 0px;
    }
+
+   
