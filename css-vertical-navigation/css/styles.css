@@ -55,11 +55,11 @@ header > img{
 		480 (image size) - 60 (padding) = 420 for the content
 */
 .banner{
-/* margin-top: 60px; */
-background-image: url(../img/flower-banner.jpg);
-height: 420px;
-padding: 60px 0 0 690px;
-}
+	/* margin-top: 60px; */
+	background-image: url(../img/flower-banner.jpg);
+	height: 420px;
+	padding: 60px 0 0 690px;
+	}
 
 .banner  h2{
 	font-family: 'Alegreya', serif;
